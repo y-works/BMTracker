@@ -15,6 +15,8 @@
 		BE15F1971FCC5004007432E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE15F1951FCC5004007432E8 /* LaunchScreen.storyboard */; };
 		BE15F1A21FCC5004007432E8 /* BMTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE15F1A11FCC5004007432E8 /* BMTrackerTests.swift */; };
 		BE15F1AD1FCC5004007432E8 /* BMTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE15F1AC1FCC5004007432E8 /* BMTrackerUITests.swift */; };
+		BE164EFA1FCC580200CB0C6C /* BMLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE164EF91FCC580200CB0C6C /* BMLog.swift */; };
+		BE1AA1121FCC5AFD00DCC925 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1AA1111FCC5AFD00DCC925 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		BE15F1A81FCC5004007432E8 /* BMTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BMTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE15F1AC1FCC5004007432E8 /* BMTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMTrackerUITests.swift; sourceTree = "<group>"; };
 		BE15F1AE1FCC5004007432E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE164EF91FCC580200CB0C6C /* BMLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMLog.swift; sourceTree = "<group>"; };
+		BE1AA1111FCC5AFD00DCC925 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				BE15F1951FCC5004007432E8 /* LaunchScreen.storyboard */,
 				BE15F1981FCC5004007432E8 /* Info.plist */,
 				BE15F1901FCC5004007432E8 /* BMTracker.xcdatamodeld */,
+				BE164EF91FCC580200CB0C6C /* BMLog.swift */,
+				BE1AA1111FCC5AFD00DCC925 /* Person.swift */,
 			);
 			path = BMTracker;
 			sourceTree = "<group>";
@@ -262,9 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE1AA1121FCC5AFD00DCC925 /* Person.swift in Sources */,
 				BE15F1921FCC5004007432E8 /* BMTracker.xcdatamodeld in Sources */,
 				BE15F18C1FCC5004007432E8 /* ViewController.swift in Sources */,
 				BE15F18A1FCC5004007432E8 /* AppDelegate.swift in Sources */,
+				BE164EFA1FCC580200CB0C6C /* BMLog.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
