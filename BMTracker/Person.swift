@@ -14,7 +14,7 @@ class PersonAccessor {
     let entityName = "Person"
     let attrName = "name"
     let attrHeight = "height"
-    let attrGoal = ""
+    let attrLog = "log"
     
     func delete(object :Person) {
         
